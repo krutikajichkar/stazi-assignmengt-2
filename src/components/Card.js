@@ -46,7 +46,7 @@ const Card = ({receivedData}) => {
       </div>
      <div className="flex justify-between">
      <h3 className="text-blue-800 text-2xl font-semibold mt-2">${receivedData?.rent}<span className="text-black text-xl">/month</span></h3>
-     <button className="border-blue-800 border-2 text-blue-700 font-semibold px-4 py-2 rounded-full">Show More</button>
+     <button className="border-blue-800 border-2 text-blue-700 font-semibold px-4 py-2 rounded-full">Read More</button>
      </div>
       </div>
     </div>
