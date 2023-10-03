@@ -1,13 +1,17 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { addCategory, addPage } from "../redux/categorySlice";
 
-const Categories = ({setCategory , category , setPage}) => {
+const Categories = () => {
   const categories = ["New York", "Mumbai", "Paris", "London"];
+  const dispatch = useDispatch();
 
   const handleCategory = (cat) => {
-    setCategory(cat);
-    setPage(0)
-    console.log(category)
+    dispatch(addCategory(cat))
+    dispatch(addPage(0))
   }
+
+  const category = useSelector(store => store?.category?.category)
   return (
     <div className="p-6 mt-[30px] flex flex-wrap  ">
       {categories.map((cat, index) => {
