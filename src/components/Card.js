@@ -6,7 +6,7 @@ import { MdLocationSearching } from "react-icons/md";
 import { AiOutlineHeart } from "react-icons/ai";
 const Card = ({receivedData}) => {
   return (
-    <div className=" bg-white w-[500px] flex flex-col justify-center rounded-lg p-2 gap-4 relative cursor-pointer">
+    <div className=" bg-white w-[500px] flex flex-col justify-center rounded-lg p-2 gap-4 relative cursor-pointer ">
         <div className="absolute top-5 left-5">
             <h1 className="bg-white px-4 py-2 text-blue-800 font-semibold rounded-full opacity-80">For {receivedData?.status.charAt(0).toUpperCase() + receivedData?.status.slice(1)}</h1>
         </div>
@@ -24,7 +24,7 @@ const Card = ({receivedData}) => {
         <span className="font-semibold">{receivedData?.location} st.</span>
       </div>
       <h1 className="text-2xl font-bold">
-        Big sa Title Hoga aur bhi bhotothot bada
+        {receivedData.Address}
       </h1>
       <div className="flex w-full justify-evenly border-b border-dashed ">
         <div className="flex flex-col items-center gap-2 border-r p-2 w-[25%] font-semibold text-xl  border-dashed m-2 ">
@@ -58,7 +58,7 @@ export default Card;
 export const withPopularTag = (Card) => {
 return (props) => {
   return(
-    <div className="relative">
+    <div className="relative min-h-[400px]">
       <label className="absolute top-[240px] py-2 px-8 rounded-md text-white font-semibold bg-blue-800 -left-3 z-10">Popular</label>
       <div className="absolute top-[270px]  text-white bg-blue-800 -left-3 z-10 p-2 rounded-l-lg"></div>
     <Card {...props}/>

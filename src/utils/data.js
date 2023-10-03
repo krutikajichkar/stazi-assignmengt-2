@@ -11,7 +11,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8266",
-    Address: "",
+    Address: "47 W 13th St, New York, NY 10011",
     city: "New York",
   },
   {
@@ -26,7 +26,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "82555",
-    Address: "",
+    Address: "20 Cooper Square, New York, NY 10003",
     city: "New York",
   },
   {
@@ -41,7 +41,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "7899",
-    Address: "",
+    Address: "1 E 2nd St, New York, NY 10003",
     city: "New York",
   },
   {
@@ -56,7 +56,7 @@ export const data = [
     image: "",
     rent: "6,255",
     location: "8266",
-    Address: "",
+    Address: "75 3rd Ave, New York, NY 10003",
     city: "New York",
   },
   {
@@ -71,7 +71,7 @@ export const data = [
     image: "",
     rent: "6,255",
     location: "8266",
-    Address: "",
+    Address: "Metrotech Center, Brooklyn, NY 11201",
     city: "New York",
   },
   {
@@ -86,7 +86,7 @@ export const data = [
     image: "",
     rent: "8,255",
     location: "8266",
-    Address: "",
+    Address: "721 Broadway, New York, NY 10003",
     city: "New York",
   },
   {
@@ -101,7 +101,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8266",
-    Address: "",
+    Address: "40 E 7th St, New York, NY 10003",
     city: "New York",
   },
   {
@@ -116,7 +116,7 @@ export const data = [
     image: "",
     rent: "4,255",
     location: "8765",
-    Address: "",
+    Address: "838 Broadway, New York, NY 10003",
     city: "New York",
   },
   {
@@ -131,7 +131,7 @@ export const data = [
     image: "",
     rent: "6,255",
     location: "6788",
-    Address: "",
+    Address: "69 W 9th St, New York, NY 10011",
     city: "New York",
   },
   {
@@ -146,7 +146,7 @@ export const data = [
     image: "",
     rent: "4,555",
     location: "8909",
-    Address: "",
+    Address: "19 Washington Square N, New York, NY 10011",
     city: "New York",
   },
   {
@@ -161,7 +161,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "78999",
-    Address: "",
+    Address: "371 7th Ave, New York, NY 10001",
     city: "New York",
   },
   {
@@ -176,7 +176,7 @@ export const data = [
     image: "",
     rent: "8,255",
     location: "76788",
-    Address: "",
+    Address: "33 3rd Ave, New York, NY 10003",
     city: "New York",
   },
   {
@@ -187,11 +187,11 @@ export const data = [
     bath: "1",
     square_ft: "678",
     isPopular: false,
-    status: "sale",
+    status: "rent",
     image: "",
     rent: "7,789",
     location: "6578",
-    Address: "",
+    Address: "Residential House Kanjurmarg East",
     city: "Mumbai",
   },
   {
@@ -206,9 +206,10 @@ export const data = [
     image: "",
     rent: "7,345",
     location: "2637",
-    Address: "",
+    Address: "Evershine dream park",
     city: "Mumbai",
   },
+ 
   {
     id: 15,
     name: "",
@@ -221,7 +222,7 @@ export const data = [
     image: "",
     rent: "4,567",
     location: "8999",
-    Address: "",
+    Address: "Sanjay Gandhi national park",
     city: "Mumbai",
   },
   {
@@ -236,7 +237,7 @@ export const data = [
     image: "",
     rent: "7,355",
     location: "6789",
-    Address: "",
+    Address: " Gurudev Ravindranath Tagore Udyan",
     city: "Mumbai",
   },
   {
@@ -251,7 +252,7 @@ export const data = [
     image: "",
     rent: "8,567",
     location: "8799",
-    Address: "",
+    Address: " Thane Mahanagar Palika",
     city: "Mumbai",
   },
   {
@@ -266,7 +267,7 @@ export const data = [
     image: "",
     rent: "8,567",
     location: "7889",
-    Address: "",
+    Address: "Hiranandani Castle Rock",
     city: "Mumbai",
   },
   {
@@ -281,7 +282,7 @@ export const data = [
     image: "",
     rent: "6,789",
     location: "45678",
-    Address: "",
+    Address: "Sheth Vasant Oasis",
     city: "Mumbai",
   },
   {
@@ -296,7 +297,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "7899",
-    Address: "",
+    Address: "Oberoi Realty Enigma and Eternia",
     city: "Mumbai",
   },
   {
@@ -311,7 +312,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8799",
-    Address: "",
+    Address: "Aristo Pearl Residency",
     city: "Mumbai",
   },
   {
@@ -326,7 +327,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8799",
-    Address: "",
+    Address: "Blue Bell Chembur",
     city: "Mumbai",
   },
   {
@@ -341,7 +342,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8799",
-    Address: "",
+    Address: "Dosti Group Flamingos",
     city: "Mumbai",
   },
   {
@@ -356,7 +357,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "7899",
-    Address: "",
+    Address: "Kshitija Shree Laxmi Residency",
     city: "Mumbai",
   },
   {
@@ -371,7 +372,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "6788",
-    Address: "",
+    Address: "Avenue des Champs-Élysées",
     city: "Paris",
   },
   {
@@ -386,7 +387,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8900",
-    Address: "",
+    Address: "Avenue Victor Hugo",
     city: "Paris",
   },
   {
@@ -401,7 +402,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "78999",
-    Address: "",
+    Address: "Avenue Montaigne",
     city: "Paris",
   },
   {
@@ -416,7 +417,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "89776",
-    Address: "",
+    Address: "Rue de Rivoli",
     city: "Paris",
   },
   {
@@ -431,7 +432,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "7899",
-    Address: "",
+    Address: "Rue Saint-Rustique",
     city: "London",
   },
   {
@@ -446,7 +447,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8977",
-    Address: "",
+    Address: "Rue Montorgueil",
     city: "Paris",
   },
   {
@@ -461,7 +462,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8976",
-    Address: "",
+    Address: "Rue Saint-Dominique",
     city: "Paris",
   },
   {
@@ -476,7 +477,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8799",
-    Address: "",
+    Address: "Rue Oberkampf",
     city: "Paris",
   },
   {
@@ -491,7 +492,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "6789",
-    Address: "",
+    Address: "Rue Vieille du Temple",
     city: "Paris",
   },
   {
@@ -506,7 +507,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "Rue des Francs-Bourgeois",
     city: "Paris",
   },
   {
@@ -521,7 +522,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "7897",
-    Address: "",
+    Address: "Cruise on the Seine",
     city: "Paris",
   },
   {
@@ -536,7 +537,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "Palace of Versailles",
     city: "Paris",
   },
   {
@@ -551,7 +552,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "Cruise on the Seine",
     city: "Paris",
   },
   {
@@ -566,7 +567,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "London Eye",
     city: "London",
   },
   {
@@ -581,7 +582,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "Warner Bros. Studio Tour London",
     city: "London",
   },
   {
@@ -596,7 +597,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "Madame Tussauds London",
     city: "London",
   },
   {
@@ -611,7 +612,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "Westminster Abbey ",
     city: "London",
   },
   {
@@ -626,7 +627,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "Piccadilly Circus And Trafalgar Square",
     city: "London",
   },
   {
@@ -641,7 +642,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "The Victoria And Albert Museum ",
     city: "London",
   },
   {
@@ -656,7 +657,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "Notting Hill Gate",
     city: "London",
   },
   {
@@ -671,7 +672,7 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "Buckingham Palace",
     city: "London",
   },
   {
@@ -686,11 +687,11 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "The British Museum",
     city: "London",
   },
   {
-    id: 36,
+    id: 47,
     name: "",
     rooms: "4",
     bed: "3",
@@ -701,11 +702,11 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "Covent Garden",
     city: "London",
   },
   {
-    id: 36,
+    id: 48,
     name: "",
     rooms: "4",
     bed: "3",
@@ -716,9 +717,10 @@ export const data = [
     image: "",
     rent: "7,255",
     location: "8769",
-    Address: "",
+    Address: "Hampton Court Palace",
     city: "London",
   },
+  
 ];
 
 export default data;

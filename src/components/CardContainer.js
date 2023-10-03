@@ -14,7 +14,7 @@ const CardContainer = () => {
   const page = useSelector(store => store?.category?.page)
   return (
     <div>
-      <div className="flex gap-6 justify-center items-center flex-wrap mt-[240px] p-2">
+      <div className="flex gap-6 justify-center items-center flex-wrap mt-[250px] p-2">
         {data
           .filter((item) => item.city === category)
           .slice(0, 6+page )
@@ -32,7 +32,7 @@ const CardContainer = () => {
           })}
       </div>
       <div className="mt-12 flex justify-center pb-12   text-xl text-white font-semibold">
-        {data.filter((item) => item.city === category).length === page + 6 ? (
+        {data.filter((item) => item.city === category).length <= page + 6 ? (
           ""
         ) : (
           <div onClick={() => dispatch(addPage(1))} className=" bg-blue-800 flex items-center gap-2 py-2 px-4 rounded-full cursor-pointer">
