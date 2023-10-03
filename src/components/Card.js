@@ -15,7 +15,7 @@ const Card = ({receivedData}) => {
         </div>
       <img
         className="w-full h-[250px] rounded-lg"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBO3QUGvMdWv123inicOIILS0mYm84MmkFsg&usqp=CAU"
+        src={receivedData?.image}
         alt="img"
       />
       <div className="flex flex-col justify-center rounded-md p-4 gap-4">

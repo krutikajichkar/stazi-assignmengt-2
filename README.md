@@ -1,3 +1,4 @@
+(The app is designed in screen size 80% , please use the same for better experience)
 # Things Covered in this assignment
  - Added routing
  - Shown all the required tabs with one active tab
